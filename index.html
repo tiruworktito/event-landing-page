@@ -5,17 +5,143 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <nav>
+        <div class="container">
 
+            <div class="d-flex bd-highlight space">
+                <div class="p-2 flex-grow-1 bd-highlight moqups">moqups</div>
+                <h3 class="p-2 bd-highlight">Speakers</h3>
+                <h3 class="p-2 bd-highlight">Tickets</h3>
+                <h3 class="p-2 bd-highlight">Venue</h3>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <h1 class="p-2 flex-grow-1 bd-highlight clearStatement2">Clear Statement about <br>your Event</h1>
+        <h5 class="p-2 bd-highlight clearStatement3">Secondary header providing additional information </h5>
+        <button type="button" class=" btn btn-dark button">GET THE TICKET</button>
+    </div>
+    <!-- jumbotrion end -->
+
+    <!-- The speaker -->
+    <div class="row ">
+        <div class="p-5 mb-5 text-center col-md-6 mx-auto">
+            <h1 class="display-2 fw-bold  speakers">The Speakers
+            </h1>
+            <p class="display-3 p-3 mb-3 fs-2 text-secondary fw-bold speakers2">Write a few lines about the speakers to
+                highlight
+                their
+                expertise in the field.
+            </p>
+        </div>
+    </div>
+    <!-- The speaker end -->
+
+    <!-- The speaker column -->
+
+    <div class="container">
+        <div class="row ">
+            <div class="col speakers2">
+                <img src="./image/placeholder.jpg" alt="" class="mw-100 rounded-3">
+                <h3>Rubby-jinings</h3>
+                <p> product Manager at Moqups. Runner, parent and coffee lover.</p>
+                <p>@username</p>
+            </div>
+
+            <div class="col speakers2">
+                <img src="./image/placeholder.jpg" alt="" class="mw-100 rounded -3">
+                <h3>Leon Hanson</h3>
+                <p>Sales Mananger at Moqups. Runner, parent, and Coffee lover.</p>
+                <p>@username</p>
+            </div>
+            <div class="col speakers2">
+                <img src="./image/placeholder.jpg" alt="" class="mw-100 rounded -3">
+                <h3>Meghan Stone</h3>
+                <p>Marketing Specialist at Moqups. Runner, parent, and Coffee lover.</p>
+                <p>@username</p>
+            </div>
+            <div class="col speakers2">
+                <img src="./image/placeholder.jpg" alt="" class="mw-100 rounded -3">
+                <h3>Willy Perkins</h3>
+                <p> UX Engineer at Moqups. Runner, parent, and Coffee lover.</p>
+                <p>@username</p>
+            </div>
+        </div>
+    </div>
+    <!-- The speaker column -->
+
+
+    <section class="getTicket">
+        <div class="c2 speakerPage">
+            <div class="container ">
+                <h1 class="p-2 flex-grow-1 bd-highlight getTicket2">Get Your Ticket today!</h1>
+                <p class="p-2 bd-highlight getTicket3">Each ticket includes: <strong>20</strong> speakers,
+                    <strong>1000</strong>
+                    participants, <strong>15</strong> sessions,<strong>5</strong> keynotes
+                </p>
+                <button type="button" class="btn btn-dark">Buy Ticket $149</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row Venue">
+                <div class="  venue1 col">
+                    <div>
+                        <h2 class="TheVenue">The Venue</h2><br>
+                        <p>
+                            Our event will be held at the <strong>Main<br> office headquarters at Provost & East
+                                <br>Building
+                                145
+                                City Road, London. </strong>
+                        </p>
+                    </div>
+
+                    <div class="G">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0423444071735!2d103.31932611461134!3d3.800917297234936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8b07870b33c15%3A0x552246d772783423!2sHospital%20Tengku%20Ampuan%20Afzan%2C%20Kuantan%20(HTAA)!5e0!3m2!1sen!2sus!4v1642826273704!5m2!1sen!2sus"
+                            width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <!-- <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509920.1998114465!2d-123.79859249949705!3d37.18426583091867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e0!3m2!1sen!2sus!4v1643488404920!5m2!1sen!2sus"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                    </div>
+                </div>
+                <div class=" venue2 col">
+                    <img src="./image/placeholder.jpg" alt="cc" width="100%" height="430px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="my-5">
+        <div class="container">
+            <div class="hstack gap-3">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <h5 class="bg-light  ms-auto">© 2019 Moqups</h5>
+
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

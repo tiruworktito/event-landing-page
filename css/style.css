@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0
+}
+
+.moqups{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.jumbotron{
+    text-align: center;
+   
+    padding-top: 10px;
+    color: rgb(93, 124, 136);
+
+    background: #ecf1f5 url("../image/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* background: #ecf1f5 url("../IMG/placeholder.jpg") no-repeat center / contain; */
+
+.clearStatement2{
+   
+    font-weight: 700;
+    
+}
+.getTicket{
+    text-align: center;
+    margin: 40px;
+}
+.getTicket2{
+    color: rgb(74, 110, 124);
+    font-weight: 800;
+}
+.getTicket3{
+    color: rgb(54, 94, 110);
+}
+.fa-instagram{
+    font-family:"FontAwesome";
+    content: "\f16d";
+    color: rgb(54, 53, 53);
+    font-size: 25px;
+
+}
+.fa-facebook-square{
+    font-family:"FontAwesome";
+    content: "\f082";
+    color: rgb(54, 53, 53);
+    font-size: 25px;
+    
+}
+.fa-twitter{
+    font-family:"FontAwesome";
+    content: "\f099";
+    color: rgb(54, 53, 53);
+    font-size: 25px;
+}
+.hstack{
+    padding-top: 20px;
+    
+}
+.hstack{
+    padding-top: 20px;
+    
+}
+.speakers{
+   color: rgb(74, 106, 119);
+}
+.speakers2{
+     color:rgb(74, 106, 119);
+}
+.Venue{
+height: 400px;
+color: rgb(74, 106, 119);;
+}
